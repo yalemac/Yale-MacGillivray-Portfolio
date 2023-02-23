@@ -2,71 +2,55 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yale MacGillivray</title>
-  <link rel="stylesheet" href="./Assets/css/reset.css"/>
-  <link rel="stylesheet" href="./Assets/css/style.css" />
+  <link rel="stylesheet" href="./Assets/css/reset.css">
+  <link rel="stylesheet" href="./Assets/css/style.css">
 </head>
 
 <body>
   <header>
     <h1>Yale MacGillivray</h1>
     <div id="smallheader">Web Developer</div>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Resources</a></li>
-      </ul>
-    </nav>
   </header>
 
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about-me">About</a>
+        <a href="#application-spacing">Applications</a>
+        <a href="#contact-me-spacing">Contact</a>
+    </nav>
+  
+
   <main>
-      <article>
-        
-        <h2>About Yale</h2>
-        <section>
-        <div class="about-me-flex">
-          <p>Yale is in her early stages of her Web Development practice. Enthusiastic, but lacking in time management, Yale's aims over the next 22 weeks is to refine her attention to detail skills to build on an agile learning practice and grow as an developer. She is completely capable of all of the traits and skills to suceed in this industry. This portfolio will demostrate her growth mindset, web development skills, and creative practice. This portfolio, like Yale's mind will update and reflect that growth over the coming months. Enjoy the journey!  </p>
+    <div class="container">
+      <section>
+          <div class="aboutme-flex" >
+          <h2>About Yale</h2>
+          <p id="about-me">Yale is in her early stages of her Web Development practice. Enthusiastic, but lacking in time management, Yale's aims over the next 22 weeks is to refine her attention to detail skills to build on an agile learning practice and grow as an developer. She is completely capable of all of the traits and skills to suceed in this industry. This portfolio will demostrate her growth mindset, web development skills, and creative practice. This portfolio, like Yale's mind will update and reflect that growth over the coming months. <br><br> Enjoy the journey! </p>
+
+          <img src="./assets/Yale-Mac.jpg" alt="Yale is standing in the snow checking emails">
         </div>
-        </section>
+      </section>
+    </div>
 
-        <section>
-          <div class="about-me-flex">
-          <h3>Knowledge we've learnt</h3>
-          <ul>
-            <li>The Basics: </li>
-            <li>html</li>
-            <li>css</li>
-            <li>JavaScript</li>
-          </ul>
-        </section>
+    <div id="application-spacing">
+        <article class="container-applications">
+          <h2>Applications and work</h2>
+            <a href="./applications-one.html" class="applications-cards">Coming soon!</a>
+            <a class="applications-cards">Coming soon!</a>
+            <a class="applications-cards">Coming soon!</a>
+            <a class="applications-cards">Coming soon!</a>
+        </article>
+    </div>
 
-        <section class="about-me">
-          <p>
-            <img src="./Assets/Yale Mac.jpg" alt="Yale is standing in the snow checking emails">
-          </p>
-        </section>
-      </article>
+    <section class="contact-me-spacing">
+      <h2>Contact me</h2>
+      <a href="tel:61405254321">Telephone: 0405 245 321</a>
+      <a href="yalemac97@gmail.com">Email: yalemac97@gmail.com</a>
+    </section>
 
-
-      <article>
-        <h2>Applications and work</h2>
-        <div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cumque voluptatum fugiat autem nesciunt harum amet eaque, officiis quidem dignissimos fuga excepturi voluptas impedit ipsam voluptate sequi labore architecto quam?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil natus recusandae amet nostrum odit, ut unde non sint, quia sed inventore odio, delectus iure! Eligendi vitae fuga blanditiis accusamus tempore!</p>
-        </div>
-      </article>
-
-    <aside>
-      <h2>Get in touch</h2>
-      <form>
-        <input type="text" placeholder="E-mail address" />
-        <button>Submit</button>
-      </form>
-    </aside>
   </main>
 
   <footer>
